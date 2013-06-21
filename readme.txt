@@ -1,9 +1,9 @@
-=== List Shortcodes ===
+=== Listnerd Shortcodes ===
 Contributors: CodeIT
 Tags: shortcode, post content, listnerd, embed
 Requires at least: 3.0
 Tested up to: 3.6
-Stable tag: 0.1.0.0
+Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,11 +18,12 @@ You may embed your own lists from www.listnerd.com or lists created by somebody 
 [list http://www.listnerd.com/list/top-10-video-games]
 
 If you need to change size of embed lists frame you may use optional params width and height. You can use integer values e.g.:
+
 [list http://www.listnerd.com/list/top-10-video-games width="400" height="600"]
+
 Or you can use per cent values, e.g.:
+
 [list http://www.listnerd.com/list/top-10-video-games width="50%" height="400"]
-
-
 
 == Installation ==
 
@@ -72,10 +73,10 @@ You can use `width` and `height` params in shortcode with integer of per cent va
 
 == Screenshots ==
 
-1. http://www.listnerd.com/public/images/wp-embed-list.png
+1. Screenshot shows the example embed list from www.listnerd.com
 
 == Changelog ==
 
+== Upgrade Notice === 0.1.0 =
 
-
-== Upgrade notice ==
+This is the initial release.
